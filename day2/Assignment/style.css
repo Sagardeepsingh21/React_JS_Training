@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+.container1{
+    background-color:rgb(147, 73, 88);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.footer{
+    background-color:rgb(147, 73, 88);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.col{
+    flex: 1;
+    background-color:rgb(147, 73, 88) ;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+}
