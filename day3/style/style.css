@@ -59,6 +59,7 @@ ol{
 
 ul{
     color: pink;
+    background-color: #eb3f3f;
 }
 
 li::marker{
