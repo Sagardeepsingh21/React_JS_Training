@@ -12,3 +12,55 @@ div p:last-child{
     border: 2px dotted black;
     border-radius: 10px;
 }
+
+div p:nth-child(even){
+    color: chocolate;
+}
+.btn{
+    text-align: center;
+}
+
+.button{
+    border: none;
+    color: black;
+    background-color: azure;
+     padding: 5px; 
+     border-radius: 3px;
+}
+
+.button:hover{
+    background-color: #c67575;
+    cursor: pointer;
+}
+
+h1::first-letter{
+    color: orangered;
+    font-size: larger;
+}
+
+h1::first-line{
+    color: rgb(156, 82, 30);
+}
+
+p::before{
+    content: "NOTE";
+    color: #c67575;
+
+}
+
+p::after{
+    content: "READ MORE";
+    color: #c67575;
+}
+
+ol{
+    color: red;
+}
+
+ul{
+    color: pink;
+}
+
+li::marker{
+    color: orangered;
+}
