@@ -1,0 +1,14 @@
+Variables 
+Variables are symbolic names for values in yoiur applications. the name of variables ,called indentifiers follow some rules.
+
+a javscript start with a letter, underscore(_) or dollar sign($).
+Susequent characters can also he digits(0-9)
+javasricpt is case sensitive letters can be included from (a-z) and (A-Z)
+for example
+fullname or FullName or fullName are all different.
+var variablesname=name;
+
+// var variablename=name
+// const
+// let 
+
