@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="bg-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, natus aspernatur debitis magnam odit adipisci, tempore veniam illum saepe, porro distinctio nulla atque autem esse possimus. Asperiores quaerat quo facilis!</p>
+    <p id="fs-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ut soluta deserunt. Asperiores neque vel ad animi ratione excepturi ut quo consequatur omnis? Expedita laborum natus facere aliquid cupiditate nisi.</p>
+    <button onclick="bgred()">Bgcolor</button>
+    <button onclick="ftsize()">FontSize</button> -->
+
+
+    <div>
+        <form onclick="handelsubmit(event)" name="userinfo">
+            <div>
+                <input type="text" placeholder="Full Name" name="fullName">
+            </div>
+            <div>
+                <input type="email" placeholder="EMAIL" name="email">
+            </div>
+            <div>
+                <button type="submit" >submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    // function bgred(){
+    //     var bg=document.getElementById("bg-red")
+    //     bg.style.backgroundColor="red"
+    // }
+    // function ftsize(){
+    //     var fs=document.getElementById("fs-50")
+    //     fs.style.fontSize="50px"
+    // }
+
+    function handelsubmit(event)
+    {
+        event.preventDefault()
+        var fullName=document.userinfo.fullName.value
+        var email=document.userinfo.email.value
+        console.log(fullName)
+        console.log(email)
+    }
+
+
+    var product=(n1,n2)=>n1*n2
+    console.log(`product of n1 and n2 is ${product(10,20)}`)
+
+    var max=(n1,n2)=>(n1>n2 ? n1:n2)
+    console.log(`max of n1 and n2 is ${max(30,40)}`)
+</script>
+</html>

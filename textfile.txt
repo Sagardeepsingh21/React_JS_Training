@@ -1,0 +1,10 @@
+Promise :
+
+A promise in js is a way to handle asynchronus operations 
+
+it have 3 states 
+pending-ongoing operations
+fulfill-operation successful
+reject-promise is rejected
+
+creating and consuming promise with .then() and .catch()
